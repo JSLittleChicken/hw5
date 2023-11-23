@@ -1,6 +1,6 @@
 let selectedAction = prompt("What do you want to do? (add, sub, mult, div)");
-let x = +prompt("please enter the first summand");
-let y = +prompt("please enter the second summand");
+let x = +prompt("please enter the first number");
+let y = +prompt("please enter the second number");
 
 switch (selectedAction) {
     case 'add':
